@@ -1,0 +1,44 @@
+{
+  "name": "themehybrid/hybrid-encryption",
+  "description": "Hybrid Core Encryption package.",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "hybrid-core",
+    "encryption",
+    "decryption",
+    "wordpress"
+  ],
+  "authors": [
+    {
+      "name": "Theme Hybrid",
+      "email": "themehybrid@gmail.com",
+      "homepage": "https://themehybrid.com",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/themehybrid/hybrid-encryption",
+  "support": {
+    "issues": "https://github.com/themehybrid/hybrid-encryption/issues",
+    "forum": "https://themehybrid.com/board/forums/hybrid-core"
+  },
+  "require": {
+    "php": ">=8.2",
+    "ext-hash": "*",
+    "ext-mbstring": "*",
+    "ext-openssl": "*",
+    "themehybrid/hybrid-contracts": "dev-next as 2.0",
+    "themehybrid/hybrid-core": "dev-next as 7.0",
+    "themehybrid/hybrid-serializable-closure": "dev-next as 1.0",
+    "themehybrid/hybrid-tools": "dev-next as 2.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Hybrid\\Encryption\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
